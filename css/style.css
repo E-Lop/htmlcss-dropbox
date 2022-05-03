@@ -9,3 +9,83 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* COMMON */
+.btn-blue {
+  background-color: #0061ff;
+  color: white;
+}
+.img {
+  width: 100%;
+  display: block;
+}
+
+/* MAIN */
+
+/* HEADER */
+header {
+  height: 80px;
+  padding: 25px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  /* test */
+  background-color: aqua;
+}
+
+.navigation-area {
+  display: flex;
+  justify-content: space-between;
+}
+/* header link box sinistro */
+.product-info-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-info-link ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.product-info-link ul a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* header link box destro */
+.product-support-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-support-link ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.product-support-link ul a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* CTA "Inizia" */
+/* cambio colore (fix specificità) */
+.product-support-link ul li:last-of-type {
+  color: white;
+}
+.inizia {
+  padding: 5px 18px;
+}

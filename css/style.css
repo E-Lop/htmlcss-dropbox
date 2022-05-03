@@ -104,10 +104,7 @@ header {
 .jumbotron {
   background-color: #b4d0e7;
   margin-top: 80px;
-  padding: 80px 0;
-
-  /* test */
-  height: 750px;
+  padding-top: 80px;
 }
 
 /* contenitore due colonne */
@@ -118,9 +115,8 @@ header {
 /* colonna sinistra jumbotron */
 .j-text-left {
   width: 40%;
-
-  /* test */
-  border: 1px solid red;
+  padding-top: 60px;
+  padding-right: 80px;
 }
 
 .j-text-left p {
@@ -149,7 +145,9 @@ h1 {
 /* colonna destra jumbotron */
 .j-img-right {
   width: 60%;
-
-  /* test */
-  border: 1px solid green;
+}
+.j-img-right img {
+  width: 100%;
+  position: relative;
+  top: 16%;
 }

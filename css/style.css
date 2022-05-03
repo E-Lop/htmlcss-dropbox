@@ -110,23 +110,46 @@ header {
   height: 750px;
 }
 
+/* contenitore due colonne */
 .j-two-columns {
   display: flex;
   justify-content: space-between;
 }
+/* colonna sinistra jumbotron */
 .j-text-left {
   width: 40%;
 
   /* test */
   border: 1px solid red;
 }
+
+.j-text-left p {
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 67px;
+}
+
+.prova-gratuita {
+  padding: 5px 18px;
+}
+.prova-gratuita a {
+  text-decoration: none;
+  color: white;
+}
+.any-time {
+  padding-top: 15px;
+}
+.arrow-down a {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+/* colonna destra jumbotron */
 .j-img-right {
   width: 60%;
 
   /* test */
   border: 1px solid green;
-}
-
-h1 {
-  font-size: 67px;
 }

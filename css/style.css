@@ -199,3 +199,35 @@ h1 {
   /* test */
   border: 1px solid red;
 }
+.col-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+
+  /* test */
+  border: 1px dotted lightgreen;
+}
+.icon {
+  margin-right: 5px;
+}
+.col-text {
+  margin: 40px 30px 60px;
+}
+.prezzo-abbonamento {
+  font-weight: bold;
+  padding: 10px 0;
+}
+.cadenza {
+  font-style: italic;
+  color: #778591;
+  padding-bottom: 20px;
+}
+
+/* lista deafure in alto */
+.feature-abbonamento ul {
+  list-style-type: none;
+}
+.feature-abbonamento ul li {
+  padding: 5px 0;
+}

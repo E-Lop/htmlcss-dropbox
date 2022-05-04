@@ -194,19 +194,15 @@ h1 {
   justify-content: space-between;
 }
 .plan-col {
-  width: calc((100% / 3) - 30px);
-
-  /* test */
-  border: 1px solid red;
+  width: calc((100% / 3) - 35px);
+  border: 1px solid black;
 }
 .col-title {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 0;
-
-  /* test */
-  border: 1px dotted lightgreen;
+  border-bottom: 1px solid black;
 }
 .icon {
   margin-right: 5px;
@@ -225,9 +221,40 @@ h1 {
 }
 
 /* lista deafure in alto */
+.feature-abbonamento {
+  padding-bottom: 30px;
+}
 .feature-abbonamento ul {
   list-style-type: none;
 }
 .feature-abbonamento ul li {
   padding: 5px 0;
+}
+
+/* bottone 30 giorni */
+.trenta-giorni {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.acquista {
+  padding: 30px 0;
+}
+
+hr {
+  width: 50px;
+  margin-bottom: 40px;
+}
+hr + h5 {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* check blue */
+.fa-ul {
+  margin-left: 25px;
+}
+i {
+  color: #0061ff;
 }

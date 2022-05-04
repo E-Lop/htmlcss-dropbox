@@ -351,3 +351,13 @@ i {
   /* test */
   border: 1px solid blue;
 }
+.strumenti-col img {
+  width: 100%;
+}
+.strumenti-col h3 {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+.strumenti-col p {
+  font-size: 14px;
+}

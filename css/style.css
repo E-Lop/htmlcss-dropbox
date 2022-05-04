@@ -331,3 +331,23 @@ i {
   border: 1px solid black;
   padding: 10px 20px;
 }
+
+/* sezione strumenti */
+.strumenti {
+  padding-top: 100px;
+}
+.strumenti h2 {
+  padding-bottom: 40px;
+}
+.strumenti-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.strumenti-col {
+  width: calc((100% / 3) - 35px);
+  padding-bottom: 70px;
+
+  /* test */
+  border: 1px solid blue;
+}

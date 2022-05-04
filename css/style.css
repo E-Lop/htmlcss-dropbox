@@ -196,6 +196,7 @@ h1 {
 .plan-col {
   width: calc((100% / 3) - 35px);
   border: 1px solid black;
+  font-size: 13px;
 }
 .col-title {
   display: flex;
@@ -207,8 +208,14 @@ h1 {
 .icon {
   margin-right: 5px;
 }
+.icon i {
+  color: black;
+}
 .col-text {
   margin: 40px 30px 60px;
+}
+.col-text .tipo-abbonamento {
+  font-size: 18;
 }
 .prezzo-abbonamento {
   font-weight: bold;

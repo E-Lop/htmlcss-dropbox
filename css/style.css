@@ -371,3 +371,27 @@ i {
   font-size: 36px;
   padding-bottom: 20px;
 }
+
+/* sezione partner */
+.partner-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.partner-left-col {
+  width: 25%;
+
+  /* test */
+  border: 1px dotted lightblue;
+}
+.partner-mid-col {
+  width: 50%;
+
+  /* test */
+  border: 1px dotted pink;
+}
+.partner-right-col {
+  width: 25%;
+
+  /* test */
+  border: 1px dotted lightgreen;
+}

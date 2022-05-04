@@ -212,14 +212,15 @@ h1 {
   color: black;
 }
 .col-text {
-  margin: 40px 30px 60px;
+  margin: 40px 30px 130px;
 }
-.col-text .tipo-abbonamento {
-  font-size: 18;
+.tipo-abbonamento {
+  font-size: 18px;
 }
 .prezzo-abbonamento {
   font-weight: bold;
   padding: 10px 0;
+  font-size: 16px;
 }
 .cadenza {
   font-style: italic;
@@ -243,6 +244,7 @@ h1 {
   width: 100%;
   text-align: center;
   padding: 10px 0;
+  font-weight: bold;
 }
 
 .acquista {

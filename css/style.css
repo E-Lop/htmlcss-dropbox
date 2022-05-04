@@ -346,10 +346,7 @@ i {
 }
 .strumenti-col {
   width: calc((100% / 3) - 35px);
-  padding-bottom: 70px;
-
-  /* test */
-  border: 1px solid blue;
+  padding-bottom: 110px;
 }
 .strumenti-col img {
   width: 100%;

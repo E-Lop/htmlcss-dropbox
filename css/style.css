@@ -337,6 +337,7 @@ i {
   padding-top: 100px;
 }
 .strumenti h2 {
+  font-size: 36px;
   padding-bottom: 40px;
 }
 .strumenti-box {
@@ -351,10 +352,22 @@ i {
 .strumenti-col img {
   width: 100%;
 }
+.strumenti-col a {
+  color: black;
+}
 .strumenti-col h3 {
   font-size: 22px;
   padding-bottom: 20px;
 }
 .strumenti-col p {
   font-size: 14px;
+}
+
+/* sezione brag */
+.brag {
+  padding-top: 100px;
+}
+.brag h2 {
+  font-size: 36px;
+  padding-bottom: 20px;
 }

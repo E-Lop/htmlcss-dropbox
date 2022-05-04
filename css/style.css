@@ -270,7 +270,7 @@ i {
 
 /* box enterprise */
 .enterprise-box {
-  margin-top: 40px 0 150px;
+  margin: 50px 0 150px;
   border: 1px solid #e6e6e7;
 }
 .enterprise-title {
@@ -306,3 +306,28 @@ i {
 }
 
 /* sezione trova partner */
+.partner-box {
+  margin-top: 100px;
+}
+.partner-box {
+  display: flex;
+}
+.partner-img {
+  width: 50%;
+}
+.partner-text {
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.partner-text h4 {
+  font-size: 24px;
+}
+.partner-text p {
+  margin: 30px 0;
+}
+.light-btn {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px 20px;
+}

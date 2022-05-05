@@ -473,3 +473,32 @@ figcaption {
   text-align: center;
   font-weight: bold;
 }
+
+/* sezione FAQ */
+.faq {
+  display: flex;
+  align-items: center;
+  /* test */
+  height: 600px;
+  border: 1px dotted black;
+}
+
+.faq h2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.faq-question-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-top: 1px solid black;
+
+  /* test */
+  border: 1px solid lightblue;
+}
+.faq-chevron-down {
+  padding-right: 40px;
+}
+.faq-chevron-down i {
+  color: black;
+}

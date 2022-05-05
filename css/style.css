@@ -228,7 +228,7 @@ h1 {
   padding-bottom: 20px;
 }
 
-/* lista deafure in alto */
+/* lista feature in alto */
 .feature-abbonamento {
   padding-bottom: 30px;
 }
@@ -236,7 +236,10 @@ h1 {
   list-style-type: none;
 }
 .feature-abbonamento ul li {
-  padding: 5px 0;
+  padding: 7px 0;
+}
+.feature-abbonamento i {
+  font-size: 12px;
 }
 
 /* bottone 30 giorni */
@@ -245,6 +248,10 @@ h1 {
   text-align: center;
   padding: 10px 0;
   font-weight: bold;
+}
+.btn-blue a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .acquista {
@@ -265,6 +272,9 @@ hr + h5 {
 /* check blue */
 .fa-ul {
   margin-left: 25px;
+}
+.fa-ul li {
+  padding: 10px 0;
 }
 i {
   color: #0061ff;
@@ -299,6 +309,10 @@ i {
   padding: 10px 30px;
   font-weight: bold;
 }
+.contatta a {
+  text-decoration: none;
+  color: inherit;
+}
 .enterprise-bold {
   font-weight: bold;
   margin: 15px 0 20px;
@@ -332,6 +346,10 @@ i {
   display: inline-block;
   border: 1px solid black;
   padding: 10px 20px;
+}
+.light-btn a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* sezione strumenti */
@@ -472,6 +490,10 @@ blockquote {
   border: none;
   text-align: center;
   font-weight: bold;
+}
+.business-trial-box a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* sezione FAQ */

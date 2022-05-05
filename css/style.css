@@ -508,3 +508,34 @@ blockquote {
 .faq-chevron-down i {
   color: black;
 }
+
+/* FOOTER */
+footer {
+  background-color: black;
+  color: white;
+
+  /* test */
+  height: 500px;
+}
+.f-menu-box {
+  display: flex;
+  padding-top: 80px;
+}
+.f-menu-col {
+  width: calc(100% / 5);
+}
+.f-menu-col h4 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.f-menu-col ul {
+  list-style-type: none;
+}
+.f-menu-col li {
+  padding-bottom: 10px;
+}
+.f-menu-col a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 14px;
+}

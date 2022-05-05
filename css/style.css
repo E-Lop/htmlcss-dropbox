@@ -379,12 +379,23 @@ i {
   display: flex;
   flex-wrap: wrap;
 }
+/* colonna sinistra */
 .partner-left-col {
   width: 30%;
+  display: flex;
+  flex-wrap: wrap;
 
   /* test */
   border: 1px dotted lightblue;
 }
+.square {
+  width: 50%;
+  height: 50%;
+
+  /* test */
+  border: 1px dotted red;
+}
+/* colonna centrale */
 .partner-mid-col {
   width: 40%;
   background-color: #f5f5f5;
@@ -398,9 +409,19 @@ i {
   height: 40px;
   margin-bottom: 40px;
 }
+blockquote {
+  font-size: 13px;
+  padding-bottom: 40px;
+}
+figcaption {
+  font-size: 13px;
+}
+/* colonna destra */
 .partner-right-col {
   width: 30%;
+  display: flex;
+  flex-wrap: wrap;
 
   /* test */
-  border: 1px dotted lightgreen;
+  border: 1px dotted lightblue;
 }

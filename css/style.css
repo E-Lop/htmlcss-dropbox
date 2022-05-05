@@ -365,11 +365,11 @@ i {
   font-size: 14px;
 }
 
-/* sezione brag */
+/* sezione adopters */
 .adopters {
   padding-top: 100px;
 }
-.brag h2 {
+.adopters h2 {
   font-size: 36px;
   padding-bottom: 20px;
 }
@@ -445,4 +445,31 @@ figcaption {
 }
 .bg-yellow {
   background-color: #ffd830;
+}
+
+/* sezione business trial */
+.business-trial {
+  height: 400px;
+  background-color: #b4d0e7;
+  display: flex;
+  align-items: center;
+}
+.business-trial-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* testo a sx */
+.business-trial-box h2 {
+  color: #61082b;
+  font-size: 36px;
+}
+
+.business-trial-box .light-btn {
+  background-color: white;
+  width: 300px;
+  border: none;
+  text-align: center;
+  font-weight: bold;
 }

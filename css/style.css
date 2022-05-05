@@ -423,7 +423,7 @@ blockquote {
   font-size: 13px;
   padding-bottom: 40px;
 }
-figcaption {
+.q-author {
   font-size: 13px;
 }
 /* colonna destra */
@@ -480,21 +480,27 @@ figcaption {
   align-items: center;
   /* test */
   height: 600px;
-  border: 1px dotted black;
 }
 
 .faq h2 {
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 .faq-question-box {
+  padding: 30px 0;
+}
+.faq-question-row {
+  width: 100%;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
-  border-top: 1px solid black;
-
-  /* test */
-  border: 1px solid lightblue;
+  border-top: 1px solid #e9e9eb;
+}
+.faq-question-row:nth-last-of-type(1) {
+  border-bottom: 1px solid #e9e9eb;
+}
+.faq-question {
+  font-weight: bold;
 }
 .faq-chevron-down {
   padding-right: 40px;

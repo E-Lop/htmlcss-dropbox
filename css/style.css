@@ -388,6 +388,13 @@ i {
 .square {
   width: 200px;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square img {
+  width: 50%;
+  filter: invert(1);
 }
 /* colori di sfondo */
 .bg-light-green {

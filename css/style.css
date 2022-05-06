@@ -93,12 +93,12 @@ header {
 
 .container-wide {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .container-narrow {
   width: 65%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* sezione jumbotron */
